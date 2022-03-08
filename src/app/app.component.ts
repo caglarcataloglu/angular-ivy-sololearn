@@ -19,4 +19,7 @@ export class AppComponent {
     const sentence = this.name;
     return sentence;
   }
+  saySomething() {
+    alert('good day Caglar.');
+  }
 }
