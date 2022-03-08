@@ -30,4 +30,8 @@ export class AppComponent {
     this.phrase += ' ..and going';
   }
   username: string;
+  addCar( ) {
+    const newCar: Car = {make: "Tesla", model: "X", miles: 100 };
+    this.transportationService.addCar(newCar);
+  }
 }
