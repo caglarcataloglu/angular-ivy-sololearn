@@ -8,7 +8,5 @@ import { Component, Input } from '@angular/core';
 export class HelloComponent  {
   @Input() name: string;
 
-  speak(){
-    speakFunctionIsHere:'Caglar'
-  }
+
 }
