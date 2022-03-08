@@ -29,4 +29,5 @@ export class AppComponent {
   update() {
     this.phrase += ' ..and going';
   }
+  username: string;
 }
