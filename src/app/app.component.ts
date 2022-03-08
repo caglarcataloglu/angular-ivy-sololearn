@@ -22,4 +22,8 @@ export class AppComponent {
   saySomething() {
     alert('good day Caglar.');
   }
+  counter = 0;
+  increment() {
+  this.counter++;
+}
 }
